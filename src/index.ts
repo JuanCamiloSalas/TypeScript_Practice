@@ -20,8 +20,16 @@ players = [
     [3, 'Carry'],
 ]
 
+// Variable aún sin asignación
 let myVariable;
 
+// Variable sin asignación pero tipada
 let myVariable1: boolean;
 
-let myVariable2 = "Hola mundo";
+// Variable con asignación y tipada con inferencia de datos
+let myVariable2 = "Hola mundo"; // Se infiere que es string
+let myNumber2 = 2; // Se infiere que es number
+
+// Composición de tipos
+// Unions types
+let myVariable3: string | number | null;
